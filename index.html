@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Game Developer and Software Engineering portfolio.">
+  <title>Your Name | Game Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">YN<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+      </div>
+
+      <a class="nav-github" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        GitHub ↗
+      </a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">GAME DEVELOPER · SOFTWARE ENGINEERING</p>
+        <h1>I build games,<br><span>systems &amp; experiments.</span></h1>
+        <p class="hero-text">
+          Software Engineering student focused on game development,
+          gameplay systems, technical programming, and interactive experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects ↓</a>
+          <a class="button button-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-terminal">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="terminal-output">game_developer</p>
+          <p><span class="prompt">$</span> stack</p>
+          <p class="terminal-output">Unity · C# · C++ · CUDA · Python</p>
+          <p><span class="prompt">$</span> status</p>
+          <p class="terminal-output accent">building things...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">01 — SELECTED WORK</p>
+        <h2>Projects</h2>
+        <p>Three projects that represent the way I like to build: interactive, technical, and hands-on.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card project-featured">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>UNITY · C# · PYTHON</span>
+              <span>TEAM PROJECT</span>
+            </div>
+
+            <h3>Fire Rescue</h3>
+
+            <p>
+              A Unity simulation inspired by the board game <em>Flash Point</em>.
+              Unity visualizes the game while Python-based agents process game state
+              and return actions through JSON communication.
+            </p>
+
+            <div class="tags">
+              <span>Unity</span>
+              <span>C#</span>
+              <span>Python</span>
+              <span>JSON</span>
+              <span>Git</span>
+            </div>
+
+            <div class="project-highlight">
+              <strong>Technical highlight</strong>
+              <span>Queued visual events to sequence explosion effects and make gameplay feedback easier to follow.</span>
+            </div>
+
+            <a class="project-link" href="https://github.com/A01662743/Flashpoint" target="_blank" rel="noopener noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>UNITY · C#</span>
+              <span>INDIVIDUAL</span>
+            </div>
+
+            <h3>Bebé Escapa</h3>
+
+            <p>
+              A complete one-level 3D game built independently, including gameplay,
+              menus, pause, Win/Lose states, animation, physics, interactions, audio,
+              and camera systems.
+            </p>
+
+            <div class="tags">
+              <span>Unity 6.5</span>
+              <span>C#</span>
+              <span>Gameplay</span>
+              <span>Animation</span>
+            </div>
+
+            <a class="project-link" href="https://github.com/A01662743/Beb-Escapa-Peluches-Biber-n-Run-3D" target="_blank" rel="noopener noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-cuda">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>C++ · CUDA</span>
+              <span>INDIVIDUAL</span>
+            </div>
+
+            <h3>Sobel Edge Detection</h3>
+
+            <p>
+              CPU sequential vs. GPU parallel implementation of Sobel convolution
+              for black-and-white image edge detection.
+            </p>
+
+            <div class="metric">
+              <span class="metric-value">~600–700×</span>
+              <span class="metric-label">lower execution time<br>in tested cases</span>
+            </div>
+
+            <div class="tags">
+              <span>C++</span>
+              <span>CUDA</span>
+              <span>GPU</span>
+              <span>Parallel Computing</span>
+            </div>
+
+            <a class="project-link" href="https://github.com/A01662743/Procesamiento-Digital-de-Im-genes-Operador-de-Convoluci-n-Sobel-en-CPU-Secuencial-vs-GPU-Paralelo-" target="_blank" rel="noopener noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div class="section-heading">
+          <p class="eyebrow">02 — ABOUT</p>
+          <h2>Engineer first.<br>Game developer by choice.</h2>
+        </div>
+
+        <div class="about-copy">
+          <p>
+            I am a Software Engineering student interested in building interactive
+            experiences and understanding the systems behind them.
+          </p>
+          <p>
+            My projects range from Unity gameplay and visual systems to GPU
+            programming with CUDA. I enjoy taking a problem, breaking it into
+            systems, and turning it into something that actually works.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">03 — TOOLBOX</p>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Game Development</h3>
+          <p>Unity · C# · Godot · GDScript · Gameplay Systems · Animation · Physics · UI</p>
+        </div>
+
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <p>C++ · CUDA · Python · JavaScript · SQL · R</p>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools &amp; Systems</h3>
+          <p>Git · GitHub · JSON · APIs · Playwright · Flask · ESP32 · Arduino · Blender</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact container">
+      <p class="eyebrow">04 — LET'S CONNECT</p>
+      <h2>Have a project in mind?</h2>
+      <p>I'm always interested in game development, technical projects, and opportunities to build.</p>
+
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com">Email ↗</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Your Name</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
